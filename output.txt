@@ -7,6 +7,6 @@ then run with:
 ./pi
 
 You get:
-For 10: 22 over 7: 3.14286
-For 100: 311 over 99: 3.14141
-For 1000: 2840 over 904: 3.14159
+For 10: 22 over 7: 3.14286.       Is only 0.00126449 far off.
+For 100: 311 over 99: 3.14141.    Is only -0.000178512 far off.
+For 1000: 2840 over 904: 3.14159. Is only 2.66854e-07 far off.

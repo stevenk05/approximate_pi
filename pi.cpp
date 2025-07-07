@@ -69,8 +69,8 @@ int main(){
         }
     }
 
-    cout << "For 10: " << saveN10 << " over " << saveD10 << ": " << (saveN10/saveD10) << ". Is only " << (saveN10/saveD10)-pi << " far off." << "\n";
-    cout << "For 100: " << saveN100 << " over " << saveD100 << ": " << (saveN100/saveD100) << ". Is only " << (saveN100/saveD100)-pi << " far off."  << "\n";
+    cout << "For 10: " << saveN10 << " over " << saveD10 << ": " << (saveN10/saveD10) << ". \t  Is only " << (saveN10/saveD10)-pi << " far off." << "\n";
+    cout << "For 100: " << saveN100 << " over " << saveD100 << ": " << (saveN100/saveD100) << ". \t  Is only " << (saveN100/saveD100)-pi << " far off."  << "\n";
     cout << "For 1000: " << saveN1k << " over " << saveD1k << ": " << (saveN1k/saveD1k) << ". Is only " << (saveN1k/saveD1k)-pi << " far off."  << "\n"; 
 
     return 0;
