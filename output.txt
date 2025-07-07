@@ -1,0 +1,12 @@
+How to use this program:
+
+first compile with:
+g++ pi.cpp -o pi
+
+then run with:
+./pi
+
+You get:
+For 10: 22 over 7: 3.14286
+For 100: 311 over 99: 3.14141
+For 1000: 2840 over 904: 3.14159
