@@ -24,9 +24,10 @@ int main(){
     double saveN1k;
     double saveD1k;
 
-    //something nowhere close to the best to get the inital min(a,b) calculation going
+    //something nowhere close to the best to get the initIal min(a,b) calculation going
     double bestdiff = 10.0;
 
+    //holds the value of the num over the denom
     double calc;
 
     //10
@@ -54,7 +55,7 @@ int main(){
             }
         }
     }
-    
+
     //1000
     for(denom = 1.0; denom < 1000; denom += 1.0){
         for(num = denom * 3.0; num < 3150; num += 1.0){
@@ -68,9 +69,9 @@ int main(){
         }
     }
 
-    cout << "For 10: " << saveN10 << " over " << saveD10 << ": " << (saveN10/saveD10)<< "\n";
-    cout << "For 100: " << saveN100 << " over " << saveD100 << ": " << (saveN100/saveD100) << "\n";
-    cout << "For 1000: " << saveN1k << " over " << saveD1k << ": " << (saveN1k/saveD1k) << "\n"; 
+    cout << "For 10: " << saveN10 << " over " << saveD10 << ": " << (saveN10/saveD10) << ". Is only " << (saveN10/saveD10)-pi << " far off." << "\n";
+    cout << "For 100: " << saveN100 << " over " << saveD100 << ": " << (saveN100/saveD100) << ". Is only " << (saveN100/saveD100)-pi << " far off."  << "\n";
+    cout << "For 1000: " << saveN1k << " over " << saveD1k << ": " << (saveN1k/saveD1k) << ". Is only " << (saveN1k/saveD1k)-pi << " far off."  << "\n"; 
 
     return 0;
 }
