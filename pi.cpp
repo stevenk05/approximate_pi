@@ -12,7 +12,9 @@ double min(double a, double b){
 
 int main(){
 
+    //numerator
     double num = 3.0;
+    //denominator
     double denom = 1.0;
     const double pi = 3.1415926535;
 
@@ -24,13 +26,13 @@ int main(){
     double saveN1k;
     double saveD1k;
 
-    //something nowhere close to the best to get the initIal min(a,b) calculation going
+    //something nowhere close to the best to get the initial min(a,b) calculation going
     double bestdiff = 10.0;
 
-    //holds the value of the num over the denom
+    //holds the value of the numerator over the denominator
     double calc;
 
-    //10
+    // for a denominator < 10
     for(denom = 1.0; denom < 10; denom += 1.0){
         for(num = denom * 3.0; num < 31.5; num += 1.0){
             calc = num/denom * 1.0;
@@ -43,7 +45,7 @@ int main(){
         }
     }
 
-    //100
+    // for a denominator < 100
     for(denom = 1.0; denom < 100; denom += 1.0){
         for(num = denom * 3.0; num < 315; num += 1.0){
             calc = num/denom * 1.0;
@@ -56,7 +58,7 @@ int main(){
         }
     }
 
-    //1000
+    // for a denominator < 1000
     for(denom = 1.0; denom < 1000; denom += 1.0){
         for(num = denom * 3.0; num < 3150; num += 1.0){
             calc = num/denom * 1.0;
